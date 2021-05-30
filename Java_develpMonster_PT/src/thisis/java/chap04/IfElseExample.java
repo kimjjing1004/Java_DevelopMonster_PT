@@ -12,7 +12,7 @@ public class IfElseExample {
 			System.out.println("점수가 90보다 작습니다.");
 			System.out.println("등급은 B 입니다.");
 			
-			// 85는 90보다 작으니 else문 조건 식을 따른다.
+			// 85는 90보다 작으니 else문 조건 식을 따른다. 
 		}
 
 	}
