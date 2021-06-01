@@ -7,7 +7,7 @@ public class WhilePrintFrom1To10Example {
 		while (i <= 10) {
 			System.out.println(i);
 			i++;
-			// while문으로 1 ~ 10까지 출력
+			// while문으로 1 ~ 10까지 합계를 출력
 		}
 
 	}
