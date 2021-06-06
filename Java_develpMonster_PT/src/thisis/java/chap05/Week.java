@@ -3,7 +3,7 @@ package thisis.java.chap05;
 public enum Week { // 열거 타입 이름
 	MONDAY,
 	TUESDAY,
-	WEDSEDAY,
+	WEDNSEDAY,
 	THURSDAY,
 	FRIDAY,
 	SATURDAY,
