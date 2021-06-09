@@ -1,6 +1,65 @@
 package thisis.java.chap06;
 
 public class Car {
+	int speed;
+	
+	void run() {
+		System.out.println(speed + "으로 달립니다.");
+	}
+	
+	public static void main(String[] args) {
+		Car myCar = new Car();
+		myCar.speed = 60;
+		myCar.run();
+	}
+	
+	/*
+	//필드
+	String model;
+	int speed;
+	
+	//생성자
+	Car(String model){
+		this.model = model;
+	}
+	
+	//메소드
+	void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	
+	void run() {
+		for (int i = 10; i <= 50; i += 10) {
+			this.setSpeed(i);
+			System.out.println(this.model + "가 달립니다.(시속:" + this.speed + "km/h)");
+		}
+	}
+	*/
+	
+	/*
+	//필드
+	int speed;
+	
+	//생성자
+	
+	//메소드
+	int getSpeed() {
+		return speed;
+	}
+	
+	void keyTurnOn() {
+		System.out.println("키를 돌립니다.");
+	}
+	
+	void run() {
+		for (int i = 10; i <= 50; i += 10) {
+			speed = i;
+			System.out.println("달립니다.(시속:" + speed + "km/h)");
+		}
+	}
+	*/
+	
+	/*
 	//필드
 	String company = "현대자동차";
 	String model = "그랜저";
@@ -57,4 +116,5 @@ public class Car {
 			}
 		}
 	}
+	*/
 }
