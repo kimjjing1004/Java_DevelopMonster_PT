@@ -3,9 +3,27 @@ package thisis.java.chap06;
 public class CarExample {
 
 	public static void main(String[] args) {
+		
+		/*
+		Car myCar = new Car("포르쉐");
+		Car yourCar = new Car("벤츠");
+		
+		myCar.run();
+		yourCar.run();
+		*/
+		
+		/*
+		Car myCar = new Car();
+		myCar.keyTurnOn();
+		myCar.run();
+		int speed = myCar.getSpeed();
+		System.out.println("현재 속도: " + speed + "km/h");
+		*/
+		
+		/*
 		//객체 생성
 //		Car myCar = new Car("검정", 3000);
-		Car myCar = new Car();	//	기본생성자를 호출할 수 없다
+		Car myCar = new Car();	//	기본생성자를 호출  할 수 없다
 		
 		myCar.setGas(5);	//	Car의 setGas() 메소드 호출
 		
@@ -54,6 +72,7 @@ public class CarExample {
 		System.out.println("car4.model : " + car4.model);
 		System.out.println("car4.color : " + car4.color);
 		System.out.println("car4.maxSpeed : " + car4.maxSpeed);
+		*/
 	}
 
 }
